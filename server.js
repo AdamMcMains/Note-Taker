@@ -2,13 +2,15 @@
 
 const express = require('express');
 
+const port = process.env.PORT || 4040;
+
 const fs = require('fs');
 
 const path = require('path');
 
 const uuid = require('uuid');
 
-const port = process.env.PORT || 4040;
+
 
 //Initialize//
 
